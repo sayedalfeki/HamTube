@@ -1,0 +1,10 @@
+import 'package:flutter/material.dart';
+final String VIDEO_ICON='assets/images/videoicon.png';
+final String APP_ICON='assets/images/appicon.png';
+final Color WHITE_COLOR=Colors.white;
+final Color BLACK_COLOR=Colors.black;
+final Color BLUE_COLOR=Colors.blue;
+final Color RED_COLOR=Colors.red;
+final Color GREEN_COLOR=Colors.green;
+final Color BROWN_COLOR=Colors.brown;
+final Color BLUE_GRAY_COLOR=Colors.blueGrey;
