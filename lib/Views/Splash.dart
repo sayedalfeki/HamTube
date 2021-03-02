@@ -11,7 +11,7 @@ class SplashScreen extends StatefulWidget {
 class _SplashScreenState extends State<SplashScreen> {
   @override
   void initState() {
-   // waitAndMove();
+   waitAndMove();
     super.initState();
   }
 
@@ -33,7 +33,7 @@ class _SplashScreenState extends State<SplashScreen> {
     return Container(
       margin: EdgeInsets.only(top: 100),
       child: Column(
-        //mainAxisAlignment: MainAxisAlignment.center,
+
         children: [
           makeText('Ham Tube',styleOfText(size: 40.0,fontweight: FontWeight.bold,color: RED_COLOR)),
           makeText('            share your knowledge with world ',styleOfText(size: 20.0,fontweight: FontWeight.normal,color:BROWN_COLOR))
